@@ -18,7 +18,7 @@
                 {% endif %}
             </a>
             <h2><a href="{% url 'house' house_id=house.id %}">{{ house.name }}</a></h2>
-            <div class="price">{{ house.price|intcomma }} руб.</div>
+            <div class="price">{{ house.price|intcomma }} тенге.</div>
         </div>
     {% endfor %}
     </div>

@@ -7,7 +7,7 @@
 
 {% block application %}
     <div class="house-detail">
-        <h2 class="house-name">{{ house.name }} <span class="price">{{ house.price|intcomma }} руб.</span></h2>
+        <h2 class="house-name">{{ house.name }} <span class="price">{{ house.price|intcomma }} тенге.</span></h2>
         <div class="house">
             {% if house.photo %}
                 <img src="{{ house.photo.url }}" alt="{{ house.name }}">
